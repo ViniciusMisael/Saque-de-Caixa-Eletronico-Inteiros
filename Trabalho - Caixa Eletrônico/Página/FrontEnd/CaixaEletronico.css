@@ -1,0 +1,33 @@
+.Barra{
+    background: fixed rgb(133, 25, 133);
+    border: rgb(133, 25, 133) ;
+}
+.LateralE{
+    height: max-content;
+    width: 150px;
+    box-sizing: content-box;
+}
+.LateralD{
+    height: max-content;
+    width: 150px;
+}
+.Superior{
+    height: 150px;
+    width: max-content;
+    font-family: 'Courier New', Courier, monospace ;
+    text-align: center;
+    font-size: larger;
+}
+
+img{
+    max-width: 150px;
+    max-height:  150px;
+}
+body{
+    background: rgb(137, 44, 137);
+}
+input{
+    width: 90px;
+    border-spacing: 2px;
+}
+;

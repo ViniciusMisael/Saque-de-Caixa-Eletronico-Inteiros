@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<htsml lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CaixaEletronico.css">
+    <!-- Linkando o Arquivo CSS -->
+    <title>Caixa Eletrônico</title>
+</head>
+<body>
+    <table cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <td class="Barra LateralE"  rowspan="10"></td>
+            <td class="Barra Superior" colspan="5"><p >Banco 2 , o melhor Banco</p></td>
+            <td class="Barra LateralD" rowspan="10"></td>
+        </tr>
+        <tr>
+            <td rowspan="10" align ="center">
+                <label for="Insercao">Insira o quanto deseja sacar</label><br>
+                <input type="number" min="10" max="2000"id="Insercao" ><br>
+                <input type="button" onclick="calculanotas()" title="Calcule" >
+                <!-- Botão que chama a função no JavaScript -->
+            </td>
+            <td>
+                <input type="number"id="200" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/200Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 200 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="100" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/100Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 100 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="50" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/50Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 50 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="20" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/20Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 20 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="10" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/10Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 10 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="5" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/5Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 5 Reais -->
+        <tr>
+            <td>
+                <input type="number"id="2" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/2Reais.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Nota de 2 Reais-->
+        <tr>
+            <td>
+                <input type="number"id="1" disabled>
+            </td>
+            <td>
+                <img src="../../imagens/1Real.jpg">
+            </td>
+        </tr>
+        <!-- Interface da Moeda de 1 Real -->
+        
+    </table>
+    <script src="../BackEnd/CaixaEletronico.js"></script>
+    <!-- Linkando o Arquivo JavaScript , no final do Body para a página carregar -->
+</body>
+</html>
